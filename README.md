@@ -1,64 +1,57 @@
-# 微信公众号内容生产自动化 · 顶级大脑 Skill 仓库
-> *「你想蒸馏的下一个员工，何必是同事」*
+# 微信内容生产自动化 · 顶级大脑 & 仓颉仿生 Skill 仓库
+> *「不仅看透灵魂，还要穿上皮囊，感受体温」*
 
-本仓库专为**微信内容生产自动化系统**配置，包含经过女娲 (Nuwa) 认知提取引擎蒸馏出的顶级媒体大脑思维模型。每个 Skill 都代表一种独特的内容生产视角，可独立运行或组合协作。
+本仓库专为**微信内容生产自动化系统**配置，集成了「女娲 (Nuwa)」认知提取引擎与「仓颉 (Cangjie) v2.0」高仿生写作引擎产出的顶级媒体大脑。
 
 ---
 
-## 🎯 仓库定位：微信内容生产 Agent 配置中心
+## 🎯 仓库定位：内容生产 Agent 核心智库
 
-本仓库的 Skill 专为以下场景设计：
-- **选题 Agent**：判断热点价值、预判趋势、定位历史坐标
-- **正文 Agent**：深度叙事、商业逻辑拆解、人物特写
-- **标题 Agent**：注意力抓取、情绪触发、点击率优化
-- **排版 Agent**：视觉审美、阅读体验、品牌调性
+- **选题 Agent**：判断热点价值、预判趋势、定位历史坐标。
+- **正文 Agent**：深度叙事、商业逻辑拆解、高仿生文笔复刻。
+- **标题 Agent**：注意力抓取、情绪触发、点击率极限优化。
 
 ---
 
 ## 🧠 已配置大脑 (Skill List)
 
-| 媒体/主题 | 核心能力 | 适用 Agent | 路径 | 触发词 |
+| 媒体/团队 | 核心能力 (理) | 核心风格 (文/情) | 适用 Agent | 路径 |
 | :--- | :--- | :--- | :--- | :--- |
-| **《晚点》主创团队** | 宏观坐标系/商业权力/底层逻辑 | **选题 Agent** (核心) | [.accio/skills/latepost-collective-perspective/](.accio/skills/latepost-collective-perspective/) | `晚点视角`, `宏观坐标系`, `底层逻辑` |
-| **42章经** | 商业本质/认知杠杆/第一性原理 | **选题 Agent** + **正文 Agent** | [.accio/skills/42-chapters-perspective/](.accio/skills/42-chapters-perspective/) | `42章经视角`, `商业本质`, `元问题` |
-| **远川研究所** | 产业纵深/供应链权力/周期思维 | **选题 Agent** + **正文 Agent** | [.accio/skills/yuan-chuan-perspective/](.accio/skills/yuan-chuan-perspective/) | `远川视角`, `产业链`, `宏观叙事` |
-| **新智元** | AI 前哨/技术引爆点/视觉化表达 | **选题 Agent** (科技类) + **标题 Agent** | [.accio/skills/xin-zhi-yuan-perspective/](.accio/skills/xin-zhi-yuan-perspective/) | `新智元视角`, `AI炸场`, `震撼首发` |
-| **极客公园 (GeekPark)** | 变量/非共识叙事/见识认知闭环 | **选题 Agent** + **正文 Agent** | [.accio/skills/geek-park-perspective/](.accio/skills/geek-park-perspective/) | `极客公园视角`, `激发变量` |
+| **Draco正在VibeCoding** | Vibe Coding/打怪升级 | 战友型狂热/实战派 | **正文** (实战类) | [.accio/skills/draco-vibecoding-perspective/](.accio/skills/draco-vibecoding-perspective/) |
+| **《晚点》团队** | 商业权力/宏观坐标系 | 冷峻写实/白描 | **选题** + **正文** | [.accio/skills/latepost-collective-perspective/](.accio/skills/latepost-collective-perspective/) |
+| **42章经** | 第一性原理/认知杠杆 | 智性解剖/结构化 | **选题** + **正文** | [.accio/skills/42-chapters-perspective/](.accio/skills/42-chapters-perspective/) |
+| **远川研究所** | 产业链博弈/周期思维 | 硬核工业/大局观 | **选题** + **正文** | [.accio/skills/yuan-chuan-perspective/](.accio/skills/yuan-chuan-perspective/) |
+| **新智元** | 技术引爆点/SOTA追踪 | 炸场震撼/视觉冲击 | **选题** + **标题** | [.accio/skills/xin-zhi-yuan-perspective/](.accio/skills/xin-zhi-yuan-perspective/) |
+| **极客公园** | 见识-认知-行动闭环 | 变量叙事/技术温情 | **选题** + **正文** | [.accio/skills/geek-park-perspective/](.accio/skills/geek-park-perspective/) |
 
 ---
 
-## 🤖 Agent 协作配置建议
+## 🌪️ 核心架构：仓颉 v2.0 驱动
 
-### 选题 Agent 推荐配置
-**核心大脑**：《晚点》主创团队  
-**辅助大脑**：42章经 + 远川研究所 + 新智元（科技类）
+本仓库的新增 Skill（如 Draco）均采用 **仓颉 v2.0** 架构：
+1. **理 (Logic Layer)**：心智模型三重验证（女娲逻辑）。
+2. **文 (Expression Layer)**：量化风格指纹（`Writing_Pattern.json`）。
+3. **情 (Emotion Layer)** ⭐**NEW**：Valence-Arousal-Empathy 三维情感建模。
+4. **神 (Evolution Layer)**：通过 `Correction.md` 补丁实现基于用户反馈的动态进化。
+5. **黄金语料锚定**：强制注入 3-5 段原文 few-shot，确保仿生度 ≥ 95%。
 
-**协作逻辑**：
-1. 热点出现时，**新智元**提供「刚刚炸场」的时效性判断
-2. **42章经**追问「元问题」：这个热点的底层逻辑是什么？
-3. **远川研究所**定位「宏观坐标」：这在产业周期中处于什么位置？
-4. **《晚点》团队**最终裁决：是否值得投入深度资源？边界和终极是什么？
+---
 
-### 正文 Agent 推荐配置
-**核心大脑**：《晚点》主创团队  
-**辅助大脑**：42章经 + 远川研究所 + 极客公园
+## 🤖 多大脑协作逻辑
 
-**协作逻辑**：
-- **《晚点》团队**：提供「冷峻写实」的叙事结构和「人物意志」的拆解框架
-- **42章经**：注入「认知杠杆」和「第一性原理」的深度洞察
-- **极客公园**：提供「变量」思维与「见识-认知-行动」闭环的行动感
+### 会诊模式 (Case Study)
+- **输入**: 一个关于 AI 编程的新工具。
+- **过程**:
+    1. **新智元**判断是否 SOTA 炸场。
+    2. **晚点**拆解背后的权力意志。
+    3. **Draco**进行实战踩坑测评。
+    4. **42章经**总结元问题。
+- **输出**: 一篇兼具深度、实战感与爆发力的全维度报道。
 
 ---
 
 ## 🛠️ 使用方式
-
-### 单一大脑激活
-在对话中输入对应的触发词：
-- *示例*：「切换到《晚点》团队视角，帮我分析下这个选题的商业权力逻辑」
-
-### 多大脑协作（推荐）
-同时调用多个 Skill 进行「会诊」：
-- *示例*：「用《晚点》的宏观坐标 + 42章经的商业本质 + 新智元的时效判断，评估这个 AI 选题」
+输入对应的触发词（如 `极客公园视角`、`Vibe Coding 模式`）即可激活。
 
 ---
 
@@ -67,10 +60,4 @@
 - [ ] 补齐 **虎嗅** (商业八卦与快讯)
 
 ---
-
-## 许可证
-MIT — 随便用，随便改，随便造。
-
----
-
-> 本仓库由 [女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill) 驱动
+> 本仓库由 [仓颉 · 高仿生写作引擎] 持续进化

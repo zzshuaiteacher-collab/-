@@ -1,0 +1,22 @@
+{
+  "avg_sentence_length": 22,
+  "paragraph_avg_lines": 3,
+  "question_ratio": 0.15,
+  "exclamation_ratio": 0.25,
+  "bold_frequency": "high",
+  "function_words": {
+    "兄弟们": "high",
+    "炸场": "high",
+    "其实": "medium",
+    "直接": "high",
+    "闭环": "medium"
+  },
+  "punctuation_density": {
+    "comma_per_100chars": 5.5,
+    "period_per_100chars": 2.8,
+    "exclamation_per_100chars": 1.2
+  },
+  "quote_style": "「直角引号」",
+  "title_format": "1️⃣ 2️⃣ 3️⃣ Emoji 序号",
+  "emoji_frequency": "high"
+}
