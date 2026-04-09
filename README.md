@@ -17,6 +17,7 @@
 
 | 媒体/团队 | 核心能力 (理) | 核心风格 (文/情) | 适用 Agent | 路径 |
 | :--- | :--- | :--- | :--- | :--- |
+| **数字生命卡兹克** | AI 玩梗/降维实战 | 伙伴型狂热/炸场派 | **正文** + **标题** | [.accio/skills/kazik-perspective/](.accio/skills/kazik-perspective/) |
 | **Draco正在VibeCoding** | Vibe Coding/打怪升级 | 战友型狂热/实战派 | **正文** (实战类) | [.accio/skills/draco-vibecoding-perspective/](.accio/skills/draco-vibecoding-perspective/) |
 | **《晚点》团队** | 商业权力/宏观坐标系 | 冷峻写实/白描 | **选题** + **正文** | [.accio/skills/latepost-collective-perspective/](.accio/skills/latepost-collective-perspective/) |
 | **42章经** | 第一性原理/认知杠杆 | 智性解剖/结构化 | **选题** + **正文** | [.accio/skills/42-chapters-perspective/](.accio/skills/42-chapters-perspective/) |
@@ -28,7 +29,7 @@
 
 ## 🌪️ 核心架构：仓颉 v2.0 驱动
 
-本仓库的新增 Skill（如 Draco）均采用 **仓颉 v2.0** 架构：
+本仓库的新增 Skill（如 Draco, 卡兹克）均采用 **仓颉 v2.0** 架构：
 1. **理 (Logic Layer)**：心智模型三重验证（女娲逻辑）。
 2. **文 (Expression Layer)**：量化风格指纹（`Writing_Pattern.json`）。
 3. **情 (Emotion Layer)** ⭐**NEW**：Valence-Arousal-Empathy 三维情感建模。
@@ -40,18 +41,18 @@
 ## 🤖 多大脑协作逻辑
 
 ### 会诊模式 (Case Study)
-- **输入**: 一个关于 AI 编程的新工具。
+- **输入**: 一个关于 AI 视频生成的新工具。
 - **过程**:
     1. **新智元**判断是否 SOTA 炸场。
-    2. **晚点**拆解背后的权力意志。
-    3. **Draco**进行实战踩坑测评。
+    2. **卡兹克**进行脑洞大开的视觉实验。
+    3. **晚点**拆解背后的权力意志。
     4. **42章经**总结元问题。
 - **输出**: 一篇兼具深度、实战感与爆发力的全维度报道。
 
 ---
 
 ## 🛠️ 使用方式
-输入对应的触发词（如 `极客公园视角`、`Vibe Coding 模式`）即可激活。
+输入对应的触发词（如 `卡兹克视角`、`AI 炸场模式`）即可激活。
 
 ---
 

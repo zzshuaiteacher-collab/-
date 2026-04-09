@@ -1,0 +1,23 @@
+{
+  "avg_sentence_length": 18,
+  "paragraph_avg_lines": 2,
+  "question_ratio": 0.12,
+  "exclamation_ratio": 0.35,
+  "bold_frequency": "very_high",
+  "function_words": {
+    "炸了": "high",
+    "史诗级": "high",
+    "刚刚": "high",
+    "其实": "medium",
+    "真的": "high",
+    "我肝了": "medium"
+  },
+  "punctuation_density": {
+    "comma_per_100chars": 4.8,
+    "period_per_100chars": 2.2,
+    "exclamation_per_100chars": 2.1
+  },
+  "quote_style": "「直角引号」",
+  "title_format": "加粗段落 + 箭头指引",
+  "emoji_frequency": "high"
+}
